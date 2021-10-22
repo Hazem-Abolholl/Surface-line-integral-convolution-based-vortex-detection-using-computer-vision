@@ -38,7 +38,7 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
  
 
-<table <table cellspacing="0" cellpadding="0" align="center"> 
+<table cellspacing="0" cellpadding="0" align="center"> 
   <tr>
 		<td><img src="testimage1.png" height="250" width="250" border=0>    
     </td>
