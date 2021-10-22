@@ -51,7 +51,9 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
     <td><center>Test image2</center></td>
 
   </tr>
-  	
+  <tr>
+    <td colspan="2">Sum: $180</td>
+  </tr>	
  </table>
 
 
