@@ -38,9 +38,9 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
  
 
-<table cellspacing="0" cellpadding="0" align="center"> 
+<table cellspacing="0" cellpadding="0" align="center" border="0"> 
   <tr>
-		<td><img src="testimage1.png" height="250" width="250" border=0>    
+		<td><img src="testimage1.png" height="250" width="250" border="0">    
     </td>
     <td><img src="testimage2.png" height="250" width="250">    
     </td>
@@ -55,25 +55,3 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
  </table>
 
 
-<table>
-<thead>
-<tr>
-	<th>	<td><img src="testimage1.png" height="250" width="250">    
-    </th>
-<th> <img src="testimage2.png" height="250" width="250">
-	</th>
-	</tr>
-</thead>
-<tbody>
-<tr>
-<td>Test image1</td>
-<td>Test image2</td>
-</tr>
-</tbody>
-</table>
-
-
-
-aa|bb|cc
---|--|--
-ee|ff|gg 
