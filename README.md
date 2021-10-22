@@ -37,12 +37,13 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
 
  "<style type='text/css'>
-</table>
-table{
- border-collapse:collapse;
+table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
 }
-table, tr, td{
- border:none;
+
+td {
+    border: none;
 }
 </style>")
 
