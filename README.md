@@ -25,10 +25,14 @@ Another Way
 
 <p align = "center">
 <img src = "testimage1.png">
-<img src = "testimage1.png">
+<img src = "testimage2.png">
 </p>
 <p align = "center">
 Fig.1 - The output result of test images. The red box is the predicted bounding box
 </p>
 
+
+<img align="left" width="100" height="100" src="testimage1.png">
+Right Align
+<img align="right" width="100" height="100" src="testimage2.png">
 
