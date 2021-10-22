@@ -16,19 +16,6 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 
 
 ## Results
-<p align = "center"  style="line-height:1">
-  <img src = "testimage1.png" width="250" height="250" >   &nbsp;&nbsp;&nbsp;<img src = "testimage2.png" width="250" height="250" >
-  <div align = "center" style="margin-bottom:0;"> Test image 1  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
-     &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  Test image 2 
-    </div>
-</p>
-<p align = "center">
-Fig.1 - The output result of test images. The red box is the predicted bounding box
-</p>
-
-
-
-
 <table cellspacing="0" cellpadding="0" align="center" border="0"> 
   <tr>
 		<td><img src="testimage1.png" height="250" width="250" border="0">    
