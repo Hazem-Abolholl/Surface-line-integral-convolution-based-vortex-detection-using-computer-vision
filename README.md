@@ -16,4 +16,4 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 
 
 ## Results
-![alt text](testimage1 and 2.png)
+![alt text](testimage1and2.png)
