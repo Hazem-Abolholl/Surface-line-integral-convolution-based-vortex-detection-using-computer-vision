@@ -36,7 +36,15 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
 
 
-
+ "<style type='text/css'>
+</table>
+table{
+ border-collapse:collapse;
+}
+table, tr, td{
+ border:none;
+}
+</style>")
 
 <table align="center" class= "b"> 
   <tr>
@@ -52,10 +60,4 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
   </tr>
   	
- </table>
-table{
- border-collapse:collapse;
-}
-table, tr, td{
- border:none;
-}
+ 
