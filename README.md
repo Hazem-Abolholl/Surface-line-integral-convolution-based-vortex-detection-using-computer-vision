@@ -47,7 +47,7 @@ td {
 }
 </style>")
 
-<table align="center" class= "b"> 
+<table <table cellspacing="0" cellpadding="0" align="center"> 
   <tr>
 		<td><img src="testimage1.png" height="250" width="250">    
     </td>
