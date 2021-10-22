@@ -56,8 +56,8 @@ td {
 
  </tr>
 	<tr align="center" >
-	<td><center><b>Test image1</b></center></td>
-    <td><center><b>Test image2</b></center></td>
+	<td><center>Test image1</center></td>
+    <td><center>Test image2</center></td>
 
   </tr>
   	
