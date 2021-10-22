@@ -45,7 +45,7 @@ table {
 td {
     border: none;
 }
-</style>")
+</style>
 
 <table <table cellspacing="0" cellpadding="0" align="center"> 
   <tr>
