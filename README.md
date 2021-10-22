@@ -56,7 +56,6 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
 
 
-|![Output1](testimage1.png) |![Output2](testimage2.png) |
+![Output1](testimage1.png) ![Output2](testimage2.png) 
 |--- |--- |
-|||
-|Test image1|Test image2|
+Test image1Test image2
