@@ -19,3 +19,13 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 | ![Output](testimage1and2.png) |
 |:--:|
 | <b>Fig.1 - The output result of test images. The red box is the predicted bounding box</b>|
+
+
+Another Way
+
+<p align = "center">
+<img src = "testimage1and2.png">
+</p>
+<p align = "center">
+Fig.1 - The output result of test images. The red box is the predicted bounding box
+</p>
