@@ -55,7 +55,16 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
  </table>
 
 
-
-![Output1](testimage1.png) ![Output2](testimage2.png) 
-|--- |--- |
-Test image1Test image2
+<table>
+<thead>
+<th>	<td><img src="testimage1.png" height="250" width="250">    
+    </th>
+<th> <img src="testimage2.png" height="250" width="250">
+	</th>
+</thead>
+<tbody>
+<tr>
+<td>Test image1</td><td>Test image2</td>
+</tr>
+</tbody>
+</table>
