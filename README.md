@@ -54,7 +54,7 @@ table, tr, td{
     </td>
 
  </tr>
-	<tr>
+	<tr align="center" >
 	<td><center><b>Test image1</b></center></td>
     <td><center><b>Test image2</b></center></td>
 
