@@ -57,14 +57,17 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
 <table>
 <thead>
-<th>	<td><img src="testimage1.png" height="250" width="250">    
+<tr>
+	<th>	<td><img src="testimage1.png" height="250" width="250">    
     </th>
 <th> <img src="testimage2.png" height="250" width="250">
 	</th>
+	</tr>
 </thead>
 <tbody>
 <tr>
-<td>Test image1</td><td>Test image2</td>
+<td>Test image1</td>
+<td>Test image2</td>
 </tr>
 </tbody>
 </table>
