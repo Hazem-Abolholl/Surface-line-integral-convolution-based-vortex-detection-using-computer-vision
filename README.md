@@ -52,4 +52,4 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
   </tr>
   	
- 
+ </table>
