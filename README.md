@@ -38,7 +38,7 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
 
 
-<table align="center"> 
+<table align="center" style="border-collapse:collapse;"> 
   <tr>
 		<td><img src="testimage1.png" height="250" width="250">    
     </td>
@@ -51,11 +51,7 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
     <td><center><b>Test image2</b></center></td>
 
   </tr>
-  <tr>
-	  <td>Fig.1 - The output result of test images. The red box is the predicted bounding box
-	  </td>
-	</tr>
-	
+  	
  </table>
 
 
