@@ -36,7 +36,7 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
 
 
- <style type='text/css'>
+ <style>
 table {
     border: 1px solid #CCC;
     border-collapse: collapse;
