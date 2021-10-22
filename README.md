@@ -23,8 +23,7 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 
 Another Way
 
-<p align = "center" padding= "20px">
-<img src = "testimage1.png">    
+<p align = "center" >&nbsp;&nbsp;&nbsp;<img src = "testimage1.png">    
   
 <img src = "testimage2.png">
 </p>
