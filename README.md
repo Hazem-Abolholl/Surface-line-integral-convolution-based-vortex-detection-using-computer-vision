@@ -54,6 +54,6 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
   	
  </table>
 .b{
-border: none!important;
+ border-collapse:collapse;
 }
 
