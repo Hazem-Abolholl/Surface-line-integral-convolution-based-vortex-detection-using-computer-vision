@@ -36,20 +36,11 @@ Fig.1 - The output result of test images. The red box is the predicted bounding 
 
 
 
- <style>
-table {
-    border: 1px solid #CCC;
-    border-collapse: collapse;
-}
-
-td {
-    border: none;
-}
-</style>
+ 
 
 <table <table cellspacing="0" cellpadding="0" align="center"> 
   <tr>
-		<td><img src="testimage1.png" height="250" width="250">    
+		<td><img src="testimage1.png" height="250" width="250" border=0>    
     </td>
     <td><img src="testimage2.png" height="250" width="250">    
     </td>
