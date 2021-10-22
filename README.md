@@ -25,7 +25,7 @@ Another Way
 
 <p align = "center" >
   <img src = "testimage1.png" width="250" height="250" >   &nbsp;&nbsp;&nbsp;<img src = "testimage2.png" width="250" height="250" >
-  <p> Test image 1  &nbsp; Test image 2 
+  <p align = "center"> Test image 1  &nbsp;&nbsp;&nbsp;&nbsp; Test image 2 
     </p>
 </p>
 <p align = "center">
