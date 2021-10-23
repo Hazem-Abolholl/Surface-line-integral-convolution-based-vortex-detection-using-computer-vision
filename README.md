@@ -30,6 +30,10 @@ For correct_class, correct_obj, and correct_Noobj:
 
 ## Download pretrained weights
 
+
+## Dataset training
+We extract a total of 100 images from the symmetry plane of “Taylor Green Vortex problem flow is simulated using Large Eddy Simulation (LES) at Re=1600” in the x-direction and label vortices on these 100 images that we process with ParaView through python scripting to generate 100 images using line integral convolution-based streamline plots.
+
 ## Results
 <table align="center" style="border: 0"> 
   <tr>
