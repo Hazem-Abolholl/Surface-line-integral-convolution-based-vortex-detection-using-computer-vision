@@ -7,7 +7,7 @@ We proposed a new approach using convolutional neural networks to detect flow st
 Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 ## Requirements
-The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 3.7 and superior. The following library are used:
+The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 3.7 and superior. The following library are installed via pip in order to run the model:
 *	Torchvision
 *	PyTorch/1.6.0-
 *	Albumentations
