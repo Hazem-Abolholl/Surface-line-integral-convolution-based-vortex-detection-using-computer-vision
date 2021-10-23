@@ -31,6 +31,8 @@ For correct_class, correct_obj, and correct_Noobj
 
 
 
+`nano`asfdsadsaf
+
 
 ## Download pretrained weights
 
