@@ -14,6 +14,23 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 *	config
 *	NumPy
 *	Matplotlib
+*	Tensorboard
+
+# Tensorboard
+Track training progress in:
+1. Mean Average Precision (mAP value)
+2. Loss Function
+3. Class accuracy - Object accuracy - No Object accuracy
+
+For mAP and Loss function
+'tensorboard --logdir=logs'
+
+For correct_class, correct_obj, and correct_Noobj
+'tensorboard --logdir=runs'
+
+
+
+
 
 ## Download pretrained weights
 
