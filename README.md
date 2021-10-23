@@ -51,7 +51,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
   </tr>
   <tr align="center">
     <td colspan="2" >Fig.1 - Test images showing vortical structures obtained with the
-	     line integral convolution-based streamline algorithm.</td>
+	    <br> line integral convolution-based streamline algorithm.</td>
   </tr>	
  </table>
 
