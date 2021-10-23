@@ -38,19 +38,19 @@ We extract a total of 100 images from the symmetry plane of “Taylor Green Vort
 We select two additional images from the symmetry plane in the x-direction, which are not part of the training datasets, and use that for testing the accuracy of our vortex detection framework based on computer vision. The two images are shown in Figure below, where test image 1, on the left-hand side, contains 16 vortices and test image 2, on the right-hand side, contains 24 vortices. We observe that the test images contain mostly symmetrical vortex structures along the main axes.
 <table align="center" style="border: 0"> 
   <tr>
-		<td><img src="testimage1.png" height="250" width="250" style="border: 0">    
+		<td><img src="test_image1_before_detecting.png" height="250" width="250" style="border: 0">    
     </td>
-    <td><img src="testimage2.png" height="250" width="250" style="border: 0">    
+    <td><img src="test_image2_before_detecting.png" height="250" width="250" style="border: 0">    
     </td>
 
  </tr>
 	<tr align="center" >
-	<td><center>Test image1</center></td>
-    <td><center>Test image2</center></td>
+	<td><center>(a) Test image 1 with 16 vortices.</center></td>
+    <td><center>(b) Test image 2 with 24 vortices.</center></td>
 
   </tr>
   <tr align="center">
-    <td colspan="2" >Fig.1 - The output result of test images. The red box is the predicted bounding box</td>
+    <td colspan="2" >Fig.1 - Test images showing vortical structures obtained with the line integral convolution-based streamline algorithm.</td>
   </tr>	
  </table>
 
@@ -70,7 +70,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
 
   </tr>
   <tr align="center">
-    <td colspan="2" >Fig.1 - The output result of test images. The red box is the predicted bounding box</td>
+    <td colspan="2" >Fig.2 - The output result of test images. The red box is the predicted bounding box</td>
   </tr>	
  </table>
 
