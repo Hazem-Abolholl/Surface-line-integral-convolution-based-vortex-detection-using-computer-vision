@@ -81,10 +81,10 @@ We select two additional images from the symmetry plane in the x-direction, whic
 ## Different Study (Another test case)
 
 <table align="center" style="border: 0"> 
-  <tr>
+  <tr align="center">
 		<td><img src="images/Different_test_case.png" height="250" width="250" style="border: 0">    
    
- </tr>
+ </tr align="center">
 	<tr align="center" >
 	<td><center>Fig.3 - Detected vortex core regions using our computer <br>
 		            vision approach for the turbulent boundary layer <br>
