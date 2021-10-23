@@ -23,16 +23,10 @@ Track training progress in:
 3. Class accuracy - Object accuracy - No Object accuracy
 
 For mAP and Loss function
-'tensorboard --logdir=logs'
+`tensorboard --logdir=logs`
 
 For correct_class, correct_obj, and correct_Noobj
-'tensorboard --logdir=runs'
-
-
-
-
-`nano`asfdsadsaf
-
+`tensorboard --logdir=runs`
 
 ## Download pretrained weights
 
