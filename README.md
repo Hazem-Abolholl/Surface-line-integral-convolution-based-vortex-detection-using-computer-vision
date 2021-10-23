@@ -78,24 +78,41 @@ We select two additional images from the symmetry plane in the x-direction, whic
 
 
 
+## Different Study (Another test case)
+
+<table align="center" style="border: 0"> 
+  <tr>
+		<td><img src="images/Different_test_case.png" height="270" width="585" style="border: 0">    
+   
+ </tr>
+	<tr align="center" >
+	<td><center>Fig.3 - Detected vortex core regions using our computer vision approach for the turbulent boundary layer case taken from Szoke et al.</center></td>
+   
+  </tr>
+   </table>
+
+
+## Loss Function
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/Loss_function.png" height="270" width="585" style="border: 0">    
    
  </tr>
 	<tr align="center" >
-	<td><center>Fig.3 - loss values curve in the time of training epochs.</center></td>
+	<td><center>Fig.4 - loss values curve in the time of training epochs.</center></td>
    
   </tr>
    </table>
-   
+  
+  ## Mean Average Precision
+  
    <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/mAp_values.png" height="270" width="585" style="border: 0">    
    
  </tr>
 	<tr align="center" >
-	<td><center>Fig.4 - Mean Average precision curve in the time of training epochs.</center></td>
+	<td><center>Fig.5 - Mean Average precision curve in the time of training epochs.</center></td>
    
   </tr>
    </table>
