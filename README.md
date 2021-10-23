@@ -15,6 +15,7 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 *	NumPy
 *	Matplotlib
 
+## Download pretrained weights
 
 ## Results
 <table align="center" style="border: 0"> 
