@@ -77,3 +77,28 @@ We select two additional images from the symmetry plane in the x-direction, whic
  </table>
 
 
+
+<table align="center" style="border: 0"> 
+  <tr>
+		<td><img src="images/Loss_function.png" height="250" width="250" style="border: 0">    
+   
+ </tr>
+	<tr align="center" >
+	<td><center>Fig.3 - loss values curve in the time of training epochs.</center></td>
+   
+  </tr>
+   </table>
+   
+   <table align="center" style="border: 0"> 
+  <tr>
+		<td><img src="images/mAp_values.png" height="250" width="250" style="border: 0">    
+   
+ </tr>
+	<tr align="center" >
+	<td><center>Fig.4 - Mean Average precision curve in the time of training epochs.</center></td>
+   
+  </tr>
+   </table>
+
+
+
