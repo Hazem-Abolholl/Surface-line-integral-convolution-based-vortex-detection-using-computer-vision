@@ -80,7 +80,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
 
 <table align="center" style="border: 0"> 
   <tr>
-		<td><img src="images/Loss_function.png" height="270" width="570" style="border: 0">    
+		<td><img src="images/Loss_function.png" height="280" width="570" style="border: 0">    
    
  </tr>
 	<tr align="center" >
