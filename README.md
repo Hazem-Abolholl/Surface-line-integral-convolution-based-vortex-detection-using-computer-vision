@@ -56,7 +56,8 @@ We select two additional images from the symmetry plane in the x-direction, whic
  </table>
 
 
-## Results
+## Detecting vortices through computer vision
+
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="testimage1.png" height="250" width="250" style="border: 0">    
