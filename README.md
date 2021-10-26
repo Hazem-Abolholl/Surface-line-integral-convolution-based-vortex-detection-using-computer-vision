@@ -1,8 +1,7 @@
 # Surface line integral convolution-based vortex detection using computer vision
 **Version 1.0.0**
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
+## Introduction
 We proposed a new approach using convolutional neural networks to detect flow structures directly from streamline plots, using the line integral convolution method. We show that our computer vision-based approach is able to reduce the number of false positives and negatives entirely.
 
 ## Requirements
