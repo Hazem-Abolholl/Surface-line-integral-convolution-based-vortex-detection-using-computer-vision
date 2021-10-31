@@ -6,7 +6,7 @@ We proposed a new approach using convolutional neural networks to detect flow st
 
 ## Installation
 If you prefer downloading the source directly through github, use
-`git clone `
+`git clone https://github.com/Hazem-Abolholl/desktop-tutorial.git`
 ## Requirements
 The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 3.7 and superior. The following library are installed via pip in order to run the model:
 *	Torchvision
@@ -37,6 +37,8 @@ We extract a total of 100 images from the symmetry plane of “Taylor Green Vort
 
 ## Test Datasets
 We select two additional images from the symmetry plane in the x-direction, which are not part of the training datasets, and use that for testing the accuracy of our vortex detection framework based on computer vision. The two images are shown in Figure below, where test image 1, on the left-hand side, contains 16 vortices and test image 2, on the right-hand side, contains 24 vortices. We observe that the test images contain mostly symmetrical vortex structures along the main axes.
+### Start runing:
+`python CVDetection -i Data/fileName`
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/test_image1_before_detecting.png" height="250" width="250" style="border: 0">    
