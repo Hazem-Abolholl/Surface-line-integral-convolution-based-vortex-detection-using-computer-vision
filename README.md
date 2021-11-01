@@ -9,7 +9,7 @@
 4. [Training Datasets](#4-Training-Datasets)
 5. [Test Datasets](#5-Test-Datasets)
 6. [Detecting vortices through computer vision](#6-Detecting-vortices-through-computer-vision)
-7. [Different Study (Another test case)](#7-Different-Study-(Another-test-case))
+7. [Different Study (Another test case)](#7-Different-Study-Another-test-case)
 
 8. [References](#8-references)
 
