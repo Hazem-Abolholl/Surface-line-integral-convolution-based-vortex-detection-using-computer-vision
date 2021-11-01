@@ -79,10 +79,11 @@ We select two additional images from the symmetry plane in the x-direction, whic
 
 ## [6. Detecting vortices through computer vision](#)
 To run inference on example images in `data/`:
-` $ python CVDetection -i TestData/fileName`
+```python
+$ python CVDetection -i TestData/fileName
+```
 
 
-### Output:
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/testimage1.png" height="250" width="250" style="border: 0">    
