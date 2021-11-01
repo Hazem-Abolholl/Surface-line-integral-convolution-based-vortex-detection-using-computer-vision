@@ -114,6 +114,8 @@ $ python CVDetection -i TestData/fileName
 
 
 ## [Loss Function](#)
+The error between the target value and the predicted value is calculated by the loss function, using the concept of error backpropagation in the neural network and altering the weight of each layer in the network to achieve the training of the model. The figure below shows a monotonic decreasing loss function, and we can say that after about 300 epochs, that our CNN is well fitted.
+
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/Loss_function.png" height="270" width="585" style="border: 0">    
