@@ -1,3 +1,27 @@
+# Table of Contents
+1. [Introduction](#1-introduction)
+2. [Installation](#2-installation)
+3. [Requirements](#3-requirements)
+	3.1 [Tensorboard](#31-tensorboard)
+	3.2 [Download pretrained weights](#32-Download-pretrained-weights)
+4. [Training Datasets](#4-Training-Datasets)
+5. [Test Datasets](#3-Test-Datasets)
+6. [Examples](#4-examples)
+
+    4.1 [Output GCI study into Markdown table (constant volume)](#41-output-gci-study-into-markdown-table-constant-volume)
+
+    4.2 [Output GCI study into LaTeX table (variable volume)](#42-output-gci-study-into-latex-table-variable-volume)
+
+    4.3 [Output GCI study into a MS word table (representative grid size based)](#43-output-gci-study-into-a-ms-word-table-representative-grid-size-based)
+
+    4.4 [Using more than 3 grids](#44-using-more-than-3-grids)
+
+    4.5 [Using the Oberkampf and Roy correction](#45-using-the-oberkampf-and-roy-correction)
+
+    4.6 [Working with the low-level GCI class](#46-working-with-the-low-level-gci-class)
+
+5. [References](#5-references)
+
 # Surface line integral convolution-based vortex detection using computer vision
 **Version 1.0.0**
 
@@ -17,7 +41,7 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 *	Matplotlib
 *	Tensorboard
 
-## Tensorboard
+### Tensorboard
 Track training progress in:
 1. Mean Average Precision (mAP value)
 2. Loss Function
@@ -29,7 +53,7 @@ For mAP and Loss function:
 For correct_class, correct_obj, and correct_Noobj:
 `tensorboard --logdir=runs`
 
-## Download pretrained weights
+### Download pretrained weights
 
 
 ## Training Datasets
@@ -57,7 +81,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
   </tr>	
  </table>
 
-## Start runing:
+ **Start runing:**
 `python CVDetection -i TestData/fileName`
 
 ## Detecting vortices through computer vision
