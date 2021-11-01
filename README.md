@@ -9,12 +9,12 @@
 	3.1 [Tensorboard](#tensorboard)
 	
 	3.2 [Download pretrained weights](#Download-pretrained-weights)
-4. [Training Datasets](#4-Training-Datasets)
-5. [Test Datasets](#5-Test-Datasets)
-6. [Detecting vortices through computer vision](#6-Detecting-vortices-through-computer-vision)
-7. [Different Study (Another test case)](#7-Different-Study-Another-test-case)
+4. [Training Datasets](#Training-Datasets)
+5. [Test Datasets](#Test-Datasets)
+6. [Detecting vortices through computer vision](#Detecting-vortices-through-computer-vision)
+7. [Different Study (Another test case)](#Different-Study-Another-test-case)
 
-8. [References](#8-references)
+8. [References](#references)
 
 # Surface line integral convolution-based vortex detection using computer vision
 
@@ -49,10 +49,10 @@ For correct_class, correct_obj, and correct_Noobj:
 ### [Download pretrained weights](*)
 
 
-## [4. Training Datasets](#)
+## [Training Datasets](#)
 We extract a total of 100 images from the symmetry plane of “Taylor Green Vortex problem flow is simulated using Large Eddy Simulation (LES) at Re=1600” in the x-direction and label vortices on these 100 images that we process with ParaView through python scripting to generate 100 images using line integral convolution-based streamline plots.
 
-## [5. Test Datasets](#)
+## [Test Datasets](#)
 We select two additional images from the symmetry plane in the x-direction, which are not part of the training datasets, and use that for testing the accuracy of our vortex detection framework based on computer vision. The two images are shown in Figure below, where test image 1, on the left-hand side, contains 16 vortices and test image 2, on the right-hand side, contains 24 vortices. We observe that the test images contain mostly symmetrical vortex structures along the main axes.
 
 <table align="center" style="border: 0"> 
@@ -74,7 +74,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
   </tr>	
  </table>
 
-## [6. Detecting vortices through computer vision](#)
+## [Detecting vortices through computer vision](#)
 To run the model on example images in `data/`:
 ```python
 $ python CVDetection -i TestData/fileName
@@ -101,7 +101,7 @@ $ python CVDetection -i TestData/fileName
 
 
 
-## [7. Different Study (Another test case)](#)
+## [Different Study (Another test case)](#)
 
 <table align="center" style="border: 0"> 
   <tr align="center">
@@ -117,7 +117,7 @@ $ python CVDetection -i TestData/fileName
    </table>
 
 
-## [8. Loss Function](#)
+## [Loss Function](#)
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/Loss_function.png" height="270" width="585" style="border: 0">    
@@ -129,7 +129,7 @@ $ python CVDetection -i TestData/fileName
   </tr>
    </table>
   
-  ## [9. Mean Average Precision](#)
+  ## [Mean Average Precision](#)
   
    <table align="center" style="border: 0"> 
   <tr>
