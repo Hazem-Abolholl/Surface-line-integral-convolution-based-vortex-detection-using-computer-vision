@@ -19,10 +19,10 @@
 ## [1. Introduction](#)
 We proposed a new approach using convolutional neural networks to detect flow structures directly from streamline plots, using the line integral convolution method. We show that our computer vision-based approach is able to reduce the number of false positives and negatives entirely.
 
-## Installation
+## [2. Installation](#)
 If you prefer downloading the source directly through github, use
 `git clone https://github.com/Hazem-Abolholl/desktop-tutorial.git`
-## Requirements
+## [3. Requirements](#)
 The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 3.7 and superior. The following library are installed via pip in order to run the model:
 *	Torchvision
 *	PyTorch/1.6.0-
@@ -32,7 +32,7 @@ The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 
 *	Matplotlib
 *	Tensorboard
 
-### Tensorboard
+### [3.1. Tensorboard](#)
 Track training progress in:
 1. Mean Average Precision (mAP value)
 2. Loss Function
@@ -44,13 +44,13 @@ For mAP and Loss function:
 For correct_class, correct_obj, and correct_Noobj:
 `tensorboard --logdir=runs`
 
-### Download pretrained weights
+### [3.2. Download pretrained weights](*)
 
 
-## Training Datasets
+## [4. Training Datasets](#)
 We extract a total of 100 images from the symmetry plane of “Taylor Green Vortex problem flow is simulated using Large Eddy Simulation (LES) at Re=1600” in the x-direction and label vortices on these 100 images that we process with ParaView through python scripting to generate 100 images using line integral convolution-based streamline plots.
 
-## Test Datasets
+## [5. Test Datasets](#)
 We select two additional images from the symmetry plane in the x-direction, which are not part of the training datasets, and use that for testing the accuracy of our vortex detection framework based on computer vision. The two images are shown in Figure below, where test image 1, on the left-hand side, contains 16 vortices and test image 2, on the right-hand side, contains 24 vortices. We observe that the test images contain mostly symmetrical vortex structures along the main axes.
 
 <table align="center" style="border: 0"> 
@@ -75,7 +75,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
  **Start runing:**
 `python CVDetection -i TestData/fileName`
 
-## Detecting vortices through computer vision
+## [6. Detecting vortices through computer vision](#)
 ### Output:
 <table align="center" style="border: 0"> 
   <tr>
@@ -97,7 +97,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
 
 
 
-## [Different Study (Another test case)](#)
+## [7. Different Study (Another test case)](#)
 
 <table align="center" style="border: 0"> 
   <tr align="center">
@@ -113,7 +113,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
    </table>
 
 
-## Loss Function
+## [8. Loss Function](#)
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/Loss_function.png" height="270" width="585" style="border: 0">    
@@ -125,7 +125,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
   </tr>
    </table>
   
-  ## Mean Average Precision
+  ## [9. Mean Average Precision](#)
   
    <table align="center" style="border: 0"> 
   <tr>
