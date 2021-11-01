@@ -9,12 +9,12 @@
 	- [Tensorboard](#tensorboard)
 	
 	- [Download pretrained weights](#Download-pretrained-weights)
-* [Training Datasets](#Training-Datasets)
-* [Test Datasets](#Test-Datasets)
-* [Detecting vortices through computer vision](#Detecting-vortices-through-computer-vision)
-* [Different Study (Another test case)](#Different-Study-Another-test-case)
+- [Training Datasets](#Training-Datasets)
+- [Test Datasets](#Test-Datasets)
+- [Detecting vortices through computer vision](#Detecting-vortices-through-computer-vision)
+- [Different Study (Another test case)](#Different-Study-Another-test-case)
 
-* [References](#references)
+- [References](#references)
 
 # Surface line integral convolution-based vortex detection using computer vision
 
