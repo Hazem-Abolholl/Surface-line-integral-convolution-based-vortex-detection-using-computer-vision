@@ -2,13 +2,13 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 # Table of Contents
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Requirements](#requirements)
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Requirements](#requirements)
 
-	** [Tensorboard](#tensorboard)
+	- [Tensorboard](#tensorboard)
 	
-	** [Download pretrained weights](#Download-pretrained-weights)
+	- [Download pretrained weights](#Download-pretrained-weights)
 * [Training Datasets](#Training-Datasets)
 * [Test Datasets](#Test-Datasets)
 * [Detecting vortices through computer vision](#Detecting-vortices-through-computer-vision)
