@@ -97,7 +97,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
 
 
 
-## Different Study (Another test case)
+## [Different Study (Another test case)](#)
 
 <table align="center" style="border: 0"> 
   <tr align="center">
