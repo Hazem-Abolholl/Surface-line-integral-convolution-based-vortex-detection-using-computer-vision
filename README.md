@@ -7,22 +7,11 @@
 	
 	3.2 [Download pretrained weights](#32-Download-pretrained-weights)
 4. [Training Datasets](#4-Training-Datasets)
-5. [Test Datasets](#3-Test-Datasets)
-6. [Examples](#4-examples)
+5. [Test Datasets](#5-Test-Datasets)
+6. [Detecting vortices through computer vision](#6-Detecting-vortices-through-computer-vision)
+7. [Different Study (Another test case)](#7-Different-Study-(Another-test-case))
 
-    4.1 [Output GCI study into Markdown table (constant volume)](#41-output-gci-study-into-markdown-table-constant-volume)
-
-    4.2 [Output GCI study into LaTeX table (variable volume)](#42-output-gci-study-into-latex-table-variable-volume)
-
-    4.3 [Output GCI study into a MS word table (representative grid size based)](#43-output-gci-study-into-a-ms-word-table-representative-grid-size-based)
-
-    4.4 [Using more than 3 grids](#44-using-more-than-3-grids)
-
-    4.5 [Using the Oberkampf and Roy correction](#45-using-the-oberkampf-and-roy-correction)
-
-    4.6 [Working with the low-level GCI class](#46-working-with-the-low-level-gci-class)
-
-5. [References](#5-references)
+8. [References](#8-references)
 
 # Surface line integral convolution-based vortex detection using computer vision
 **Version 1.0.0**
