@@ -2,9 +2,9 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 # Table of Contents
-* [Introduction](#introduction)
-2. [Installation](#2-installation)
-3. [Requirements](#3-requirements)
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Requirements](#requirements)
 
 	3.1 [Tensorboard](#31-tensorboard)
 	
@@ -21,10 +21,10 @@
 ## [Introduction](#)
 We proposed a new approach using convolutional neural networks to detect flow structures directly from streamline plots, using the line integral convolution method. We show that our computer vision-based approach is able to reduce the number of false positives and negatives entirely.
 
-## [2. Installation](#)
+## [Installation](#)
 If you prefer downloading the source directly through github, use
 `git clone https://github.com/Hazem-Abolholl/desktop-tutorial.git`
-## [3. Requirements](#)
+## [Requirements](#)
 The Vortex Detection using Computer Vision based on YOLOv3 works only on Python 3.7 and superior. The following library are installed via pip in order to run the model:
 *	Torchvision
 *	PyTorch/1.6.0-
