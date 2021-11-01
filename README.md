@@ -11,7 +11,7 @@
 	- [Download pretrained weights](#Download-pretrained-weights)
 - [Training Datasets](#Training-Datasets)
 - [Test Datasets](#Test-Datasets)
-- [Detecting vortices through computer vision](#Detecting-vortices-through-computer-vision)
+- [Results](#Results)
 - [Different Study (Another test case)](#Different-Study-Another-test-case)
 
 - [References](#references)
@@ -74,7 +74,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
   </tr>	
  </table>
 
-## [Detecting vortices through computer vision](#)
+## [Results](#)
 To run the model on example images in `data/`:
 ```python
 $ python CVDetection -i TestData/fileName
