@@ -2,7 +2,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 # Table of Contents
-1. [Introduction](#1-introduction)
+* [Introduction](#1-introduction)
 2. [Installation](#2-installation)
 3. [Requirements](#3-requirements)
 
@@ -18,7 +18,7 @@
 
 # Surface line integral convolution-based vortex detection using computer vision
 
-## [1. Introduction](#)
+## [Introduction](#)
 We proposed a new approach using convolutional neural networks to detect flow structures directly from streamline plots, using the line integral convolution method. We show that our computer vision-based approach is able to reduce the number of false positives and negatives entirely.
 
 ## [2. Installation](#)
