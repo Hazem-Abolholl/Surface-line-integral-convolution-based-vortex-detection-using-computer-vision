@@ -6,9 +6,9 @@
 2. [Installation](#installation)
 3. [Requirements](#requirements)
 
-	3.1 [Tensorboard](#31-tensorboard)
+	3.1 [Tensorboard](#tensorboard)
 	
-	3.2 [Download pretrained weights](#32-Download-pretrained-weights)
+	3.2 [Download pretrained weights](#Download-pretrained-weights)
 4. [Training Datasets](#4-Training-Datasets)
 5. [Test Datasets](#5-Test-Datasets)
 6. [Detecting vortices through computer vision](#6-Detecting-vortices-through-computer-vision)
