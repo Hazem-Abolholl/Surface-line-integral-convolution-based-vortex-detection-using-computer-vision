@@ -2,7 +2,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 # Table of Contents
-* [Introduction](#-introduction)
+* [Introduction](# introduction)
 2. [Installation](#2-installation)
 3. [Requirements](#3-requirements)
 
