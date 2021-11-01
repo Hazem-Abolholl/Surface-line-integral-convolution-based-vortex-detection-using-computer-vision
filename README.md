@@ -2,19 +2,19 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Requirements](#requirements)
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Requirements](#requirements)
 
-	3.1 [Tensorboard](#tensorboard)
+	** [Tensorboard](#tensorboard)
 	
-	3.2 [Download pretrained weights](#Download-pretrained-weights)
-4. [Training Datasets](#Training-Datasets)
-5. [Test Datasets](#Test-Datasets)
-6. [Detecting vortices through computer vision](#Detecting-vortices-through-computer-vision)
-7. [Different Study (Another test case)](#Different-Study-Another-test-case)
+	** [Download pretrained weights](#Download-pretrained-weights)
+* [Training Datasets](#Training-Datasets)
+* [Test Datasets](#Test-Datasets)
+* [Detecting vortices through computer vision](#Detecting-vortices-through-computer-vision)
+* [Different Study (Another test case)](#Different-Study-Another-test-case)
 
-8. [References](#references)
+* [References](#references)
 
 # Surface line integral convolution-based vortex detection using computer vision
 
