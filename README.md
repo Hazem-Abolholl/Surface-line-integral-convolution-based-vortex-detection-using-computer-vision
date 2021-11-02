@@ -87,6 +87,8 @@ $ python CVDetection -i TestData/fileName
     Plots predicted bounding boxes on the image
     iou_threshold: threshold where predicted boxes is correct
     threshold: threshold to remove predicted bboxes (independent of IoU)
+    model: Build CNN based on YOLOv3
+    anchors: the anchors used for the predictions which have been rescaled to be between [0, 1]
     """
     plot_image(model, loader, iou_threshold=0.6, threshold=0.5, scaled_anchors)
 ```
