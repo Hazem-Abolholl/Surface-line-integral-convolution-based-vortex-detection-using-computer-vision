@@ -144,6 +144,7 @@ The error between the target value and the predicted value is calculated by the 
    </table>
   
   ## [Mean Average Precision](#)
+  The figure 5 shows that a few epochs are required initially to pick up any vortices after which we can observe a steady increase in the mAP value. the max value of mean Average Precision (mAP) is 0.96 which can the model capture all the vortices without false positives and negatives.
   
    <table align="center" style="border: 0"> 
   <tr>
