@@ -75,9 +75,19 @@ To run the model on example images in `data/`:
 ```python
 $ python CVDetection -i TestData/fileName
 ```
-
+The following code is used to load check point to test our model after training:
 ```python
-    optimizer = optim.Adam(model.parameters())
+Configration.CHECKPOINT: The path of Checkpoint file
+model: Build CNN based on YOLOv3
+optimizer: Adam optimizer has been used
+load_checkpoint(Configration.CHECKPOINT, model, optimizer)
+def load_checkpoint(checkpoint, model, optimizer):
+    print("======> Loading please wait!")  
+    get_checkpoint = torch.load(checkpoint, map_location=Configration.DEVICE)
+    model.load_state_dict(get_checkpoint["state_dict"])
+    optimizer.load_state_dict(get_checkpoint["optimizer"])
+```
+```python
     loader = loaders(img_path=args.input_filename)
     load_checkpoint(Configration.CHECKPOINT, model, optimizer)
     scaled_anchors = (torch.tensor(Configration.ANCHORS)
@@ -87,8 +97,7 @@ $ python CVDetection -i TestData/fileName
     Plots predicted bounding boxes on the image
     iou_threshold: threshold where predicted boxes is correct
     threshold: threshold to remove predicted bboxes (independent of IoU)
-    model: Build CNN based on YOLOv3
-    anchors: the anchors used for the predictions which have been rescaled to be between [0, 1]
+    scaled_anchors: the anchors used for the predictions which have been rescaled to be between [0, 1]
     """
     plot_image(model, loader, iou_threshold=0.6, threshold=0.5, scaled_anchors)
 ```
