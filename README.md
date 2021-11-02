@@ -83,10 +83,14 @@ $ python CVDetection -i TestData/fileName
     scaled_anchors = (torch.tensor(Configration.ANCHORS)
             * torch.tensor(Configration.S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
     ).to(Configration.DEVICE)
-    #plot the test image based on
-    plot_image(model, loader, 0.6, 0.5, scaled_anchors)
-
+    """
+    Plots predicted bounding boxes on the image
+    iou_threshold: threshold where predicted boxes is correct
+    threshold: threshold to remove predicted bboxes (independent of IoU)
+    """
+    plot_image(model, loader, iou_threshold=0.6, threshold=0.5, scaled_anchors)
 ```
+
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/testimage1.png" height="250" width="250" style="border: 0">    
