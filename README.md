@@ -76,7 +76,17 @@ To run the model on example images in `data/`:
 $ python CVDetection -i TestData/fileName
 ```
 
+```python
+ optimizer = optim.Adam(model.parameters())
+    loader = loaders(img_path=args.input_filename)
+    load_checkpoint(Configration.CHECKPOINT, model, optimizer)
+    scaled_anchors = (torch.tensor(Configration.ANCHORS)
+            * torch.tensor(Configration.S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
+    ).to(Configration.DEVICE)
+    #plot the test image based on
+    plot_image(model, loader, 0.6, 0.5, scaled_anchors)
 
+```
 <table align="center" style="border: 0"> 
   <tr>
 		<td><img src="images/testimage1.png" height="250" width="250" style="border: 0">    
