@@ -91,7 +91,7 @@ In order to plot the result after predicted the vortices area we need to build t
 ```python
     loader = loaders(img_path=args.input_filename)
     scaled_anchors = (torch.tensor(Configration.ANCHORS)
-            * torch.tensor(Configration.S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
+            * torch.tensor(Configration.R).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2) # R for Three Resulations [13, 26,52]
     ).to(Configration.DEVICE)
     """
     Plots predicted bounding boxes on the image
