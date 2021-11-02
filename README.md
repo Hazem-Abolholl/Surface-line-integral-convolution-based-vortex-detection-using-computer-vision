@@ -123,7 +123,7 @@ In order to plot the result after predicted the vortices area we need to build t
 
 
 ## [Different Study (Another test case)](#)
-
+In order to demonstrate the robustness of the developed vortex core detection algorithm based on computer vision, we apply the trained CNN to a different test case. Here, we use the LES data of Szoke et al., where the turbulence within a channel with streamwise rods was simulated to investigate their role on attenuate pressure fluctuations near the wall. Figure 3 shows that we are able to predict the correct vortex core region and using additional images from turbulent boundary layer flows, it is likely that we will be able to remove false positives and negatives entirely.
 <table align="center" style="border: 0"> 
   <tr align="center">
 		<td><img src="images/Different_test_case.png" height="250" width="250" style="border: 0">    
