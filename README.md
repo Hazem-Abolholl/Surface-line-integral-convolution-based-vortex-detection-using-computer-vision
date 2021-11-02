@@ -87,9 +87,9 @@ def load_checkpoint(checkpoint, model, optimizer):
     model.load_state_dict(get_checkpoint["state_dict"])
     optimizer.load_state_dict(get_checkpoint["optimizer"])
 ```
+In order to plot the result after predicted the vortices area we need to build the model, load the image, give threshold value and scaled the anchors which three anchors for each cell.
 ```python
     loader = loaders(img_path=args.input_filename)
-    load_checkpoint(Configration.CHECKPOINT, model, optimizer)
     scaled_anchors = (torch.tensor(Configration.ANCHORS)
             * torch.tensor(Configration.S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
     ).to(Configration.DEVICE)
