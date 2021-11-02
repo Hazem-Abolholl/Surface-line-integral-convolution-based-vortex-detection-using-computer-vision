@@ -75,7 +75,7 @@ To run the model on example images in `data/`:
 ```python
 $ python CVDetection -i TestData/fileName
 ```
-The following code is used to load check point to test our model after training:
+The following code is used to load checkpoint file to test our model after training:
 ```python
 Configration.CHECKPOINT: The path of Checkpoint file
 model: Build CNN based on YOLOv3
