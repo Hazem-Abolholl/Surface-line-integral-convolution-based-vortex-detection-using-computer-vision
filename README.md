@@ -77,7 +77,7 @@ $ python CVDetection -i TestData/fileName
 ```
 
 ```python
- optimizer = optim.Adam(model.parameters())
+    optimizer = optim.Adam(model.parameters())
     loader = loaders(img_path=args.input_filename)
     load_checkpoint(Configration.CHECKPOINT, model, optimizer)
     scaled_anchors = (torch.tensor(Configration.ANCHORS)
