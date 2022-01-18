@@ -53,9 +53,9 @@ We select two additional images from the symmetry plane in the x-direction, whic
 
 <table align="center" style="border: 0"> 
   <tr>
-		<td><img src="images/test_image1_before_detecting.png" height="250" width="250" style="border: 0">    
+		<td><img src="images/test_image1_before_detecting.jpg" height="250" width="250" style="border: 0">    
     </td>
-    <td><img src="images/test_image2_before_detecting.png" height="250" width="250" style="border: 0">    
+    <td><img src="images/test_image2_before_detecting.jpg" height="250" width="250" style="border: 0">    
     </td>
 
  </tr>
