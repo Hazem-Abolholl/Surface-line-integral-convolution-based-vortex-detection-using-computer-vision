@@ -106,7 +106,7 @@ In order to plot the result after predicted the vortices area we need to build t
   <tr>
 		<td><img src="images/testimage1.png" height="250" width="250" style="border: 0">    
     </td>
-    <td><img src="images/testimage2.png" height="250" width="250" style="border: 0">    
+    <td><img src="images/335.png" height="250" width="250" style="border: 0">    
     </td>
 
  </tr>
