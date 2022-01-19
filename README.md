@@ -73,7 +73,7 @@ We select two additional images from the symmetry plane in the x-direction, whic
 ## [Results](#)
 To run the model on example images in `data/`:
 ```python
-$ python CVDetection -i TestData/fileName
+$ python CVDetection -i Data/fileName
 ```
 The following code is used to load checkpoint file to test our model after training the algorithm:
 ```python
