@@ -45,7 +45,7 @@ For mAP and Loss function:
 For correct_class, correct_obj, and correct_Noobj:
 `tensorboard --logdir=runs`
 
-### [Loading the model][#]
+### [Loading the model](#)
 Download the weights (checkpoint ) from this link to test the model:
 https://cord.cranfield.ac.uk/articles/dataset/Surface_line_integral_convolution-based_vortex_detection_using_computer_vision/19214166/1
 
