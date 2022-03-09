@@ -45,11 +45,12 @@ For mAP and Loss function:
 For correct_class, correct_obj, and correct_Noobj:
 `tensorboard --logdir=runs`
 
-## [Training Datasets](#)
-We extract a total of 100 images from the symmetry plane of “Taylor Green Vortex problem flow is simulated using Large Eddy Simulation (LES) at Re=1600” in the x-direction and label vortices on these 100 images that we process with ParaView through python scripting to generate 100 images using line integral convolution-based streamline plots.
-## [Loading the model][#]
+### [Loading the model][#]
 Download the weights (checkpoint ) from this link to test the model:
 https://cord.cranfield.ac.uk/articles/dataset/Surface_line_integral_convolution-based_vortex_detection_using_computer_vision/19214166/1
+
+## [Training Datasets](#)
+We extract a total of 100 images from the symmetry plane of “Taylor Green Vortex problem flow is simulated using Large Eddy Simulation (LES) at Re=1600” in the x-direction and label vortices on these 100 images that we process with ParaView through python scripting to generate 100 images using line integral convolution-based streamline plots.
 
 ## [Test Datasets](#)
 We select two additional images from the symmetry plane in the x-direction, which are not part of the training datasets, and use that for testing the accuracy of our vortex detection framework based on computer vision. The two images are shown in Figure below, where test image 1, on the left-hand side, contains 16 vortices and test image 2, on the right-hand side, contains 24 vortices. We observe that the test images contain mostly symmetrical vortex structures along the main axes.
