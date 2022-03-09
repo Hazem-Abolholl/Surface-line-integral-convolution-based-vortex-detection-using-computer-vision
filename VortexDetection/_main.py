@@ -1,5 +1,7 @@
 import torch
 import torch.optim as optim
+from PIL import Image
+import numpy as np
 import argparse
 from VortexDetection import Configration
 from VortexDetection.Model import (CV_DetectionVorticies_YOLOv3,loaders,
@@ -12,6 +14,15 @@ def main():
                         default='Data/testImage1.jpg', type=str,
                         )
     args = parser.parse_args()
+    ## RGB Image are needed as test
+    IMAGE_FILE = Image.open(args.input_filename) 
+    IMAGE_FILE.load() 
+
+    IMAGE_FILE_NP = np.array(IMAGE_FILE)
+    if IMAGE_FILE_NP.shape[2] != 3:
+        print('The test image is RGBA, you need to convert to RGB')
+        return   # exit
+
     # Build the architecture of the model based on YOLOv3 according to the paper
     model = CV_DetectionVorticies_YOLOv3(no_classes=2).to(Configration.DEVICE)
     optimizer = optim.Adam(model.parameters())
