@@ -7,6 +7,7 @@
 - [Requirements](#requirements)
 
 	- [Tensorboard](#tensorboard)
+	- [Loading the model](#Loading-the-model)
 	
 - [Training Datasets](#Training-Datasets)
 - [Test Datasets](#Test-Datasets)
