@@ -54,7 +54,7 @@ https://cord.cranfield.ac.uk/articles/dataset/Surface_line_integral_convolution-
 We extract a total of 100 images from the symmetry plane of “Taylor Green Vortex problem flow is simulated using Large Eddy Simulation (LES) at Re=1600” in the x-direction and label vortices on these 100 images that we process with ParaView through python scripting to generate 100 images using line integral convolution-based streamline plots.
 
 ## [Test Datasets](#)
-We select two additional images from the symmetry plane in the x-direction, which are not part of the training datasets, and use that for testing the accuracy of our vortex detection framework based on computer vision. The two images are shown in Figure below, where test image 1, on the left-hand side, contains 16 vortices and test image 2, on the right-hand side, contains 24 vortices. These image have been converted from RGBA (4 channel) to RGB (3 channel) by using python file "Convert_RGBA_To_RGB.py". We observe that the test images contain mostly symmetrical vortex structures along the main axes.
+We select two additional images from the symmetry plane in the x-direction, which are not part of the training datasets, and use that for testing the accuracy of our vortex detection framework based on computer vision. The two images are shown in Figure below, where test image 1, on the left-hand side, contains 16 vortices and test image 2, on the right-hand side, contains 24 vortices. These image have been converted from RGBA (4 channels) to RGB (3 channels) by using the python file "Convert_RGBA_To_RGB.py". We observe that the test images contain mostly symmetrical vortex structures along the main axes.
 
 <table align="center" style="border: 0"> 
   <tr>
